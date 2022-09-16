@@ -7,6 +7,7 @@ import {Usuario} from '../shared/model/usuario';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  aluno = 'Julyana Alencar';
   titulo = 'Social IFPB';
   usuario: Usuario;
   usuarios: Array<Usuario>;

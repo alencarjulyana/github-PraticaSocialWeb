@@ -1,7 +1,7 @@
 <p>{{titulo}}</p>
 
 <br>
-
+Aluno: <input [(ngModel)]='usuario.aluno'><br>
 Nome: <input [(ngModel)]="usuario.nome"><br>
 CPF: <input [(ngModel)]="usuario.cpf"><br>
 Idade: <input [(ngModel)]="usuario.idade"><br>
@@ -10,5 +10,5 @@ Idade: <input [(ngModel)]="usuario.idade"><br>
 <br>
 
 <ul>
-  <li *ngFor="let usuario of usuarios">{{usuario.nome}}</li>
+  <li *ngFor="let usuario of usuarios">{{usuario.aluno}}</li>
 </ul>
